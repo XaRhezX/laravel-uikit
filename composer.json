@@ -1,6 +1,6 @@
 {
-    "name": "vheins/laravel-uikit",
-    "homepage": "https://github.com/XaRhezX/laravel-uikit",
+    "name": "vheins/laravel-uikit-components",
+    "homepage": "https://github.com/XaRhezX/laravel-uikit-components",
     "description": "Laravel Component with UIKit",
     "license": "MIT",
     "type": "component",

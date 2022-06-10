@@ -1,7 +1,7 @@
 {
-    "name": "vheins/laravel-uikit-components",
-    "homepage": "https://github.com/XaRhezX/laravel-uikit-components",
-    "description": "Laravel Component with UIKit",
+    "name": "vheins/laravel-ui-kit-components",
+    "homepage": "https://github.com/XaRhezX/laravel-ui-kit-components",
+    "description": "Laravel UIKit Blade Component",
     "license": "MIT",
     "type": "component",
     "authors": [
@@ -14,17 +14,17 @@
     "require": {
         "laravel/framework": "^7.0|^8.0|^9.0"
     },
-    
+
     "autoload": {
         "psr-4": {
-            "Vheins\\LaravelUikit\\": "src"
+            "Vheins\\LaravelUiKitComponents\\": "src"
         }
     },
     "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
-                "Vheins\\LaravelUikit\\Providers\\LaravelUiKitProvider"
+                "Vheins\\LaravelUiKitComponents\\LaravelUiKitComponentsProvider"
             ]
         }
     }

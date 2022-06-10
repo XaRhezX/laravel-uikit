@@ -1,0 +1,31 @@
+{
+    "name": "vheins/laravel-uikit",
+    "homepage": "https://github.com/XaRhezX/laravel-uikit",
+    "description": "Laravel Component with UIKit",
+    "license": "MIT",
+    "type": "component",
+    "authors": [
+        {
+            "name": "Muhammad Rheza Alfin",
+            "email": "aRhez0903@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^7.0|^8.0|^9.0"
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "Vheins\\LaravelUikit\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vheins\\LaravelUikit\\Providers\\LaravelUiKitProvider"
+            ]
+        }
+    }
+}
